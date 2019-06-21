@@ -1,0 +1,45 @@
+@import "./OfferMakerOverview/OfferMakerOverview";
+
+.OfferMaker_table {
+    width: 100%;
+
+    .offer_table_row {
+        height: 50px;
+
+        .offer_table_label {
+            padding-right: 18px;
+            text-transform: capitalize;
+        }
+
+        .offer_table_input_cell {
+            width: auto;
+            min-width: 100px;
+
+            .offer_input_group {
+                display: flex;
+
+                input {
+                    width: 100%;
+                    border-radius: 3px 0 0 3px;
+                    border-right: 0;
+                }
+
+                .offer_input_group_tag {
+                    padding: 0.3333em 1em 0.3333em 1em;
+                    background: $s-color-neutral8;
+                    font-weight: bold;
+                    border-radius: 0 3px 3px 0;
+                    border: 1px solid $s-color-neutral6;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
